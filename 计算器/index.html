@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windows计算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="index">
+
+        <div class="top">
+
+            <div class="top-left">
+                <img src="images/计算器.png" class="computer" alt="">
+            </div>
+
+            <span class="words">计算器</span>
+
+            <div class="big-top">
+                <div class="top-big-right red-right"><img src="images/关闭.png" class="top-right" alt=""></div>
+                <div class="top-big-right color-right"><img src="images/最大化.png" class="top-right" alt=""></div>
+                <div class="top-big-right color-right"><img src="images/最小化.png" class="top-right" alt=""></div>
+            </div>
+
+        </div>
+        <div class="menu">
+            <div class="top-menu"></div>
+            <ul class="menu-ul">
+                <!-- <li class="first_content">计算器</li> -->
+                <span class="part_top">计算器</span>
+                <li class="first_content"><span id="bule"></span><img src="images/标准.png" alt="">标准</li>
+                <li><img src="images/科学.png" alt=""> 科学</li>
+                <li><img src="images/绘图.png" alt="">绘图</li>
+                <li>&lt;/&gt;&nbsp;&nbsp;程序员</li>
+                <li><img src="images/日期计算.png" alt="">日期计算</li>
+                <span class="part_top">转换器</span>
+                <li><img src="images/货币.png" alt=""> 货币</li>
+                <li><img src="images/容量.png" alt="">容量</li>
+                <li><img src="images/长度.png" alt="">长度</li>
+                <li><img src="images/重量.png" alt="">重量</li>
+                <li><img src="images/温度.png" alt="">温度</li>
+                <li><img src="images/能量.png" alt="">能量</li>
+                <li><img src="images/面积.png" alt="">面积</li>
+                <li><img src="images/速度.png" alt="">速度</li>
+                <li><img src="images/时间.png" alt="">时间</li>
+                <li><img src="images/功率.png" alt="">功率</li>
+                <li><img src="images/数据.png" alt="">数据</li>
+                <li><img src="images/压强.png" alt="">压强</li>
+                <li><img src="images/角度.png" alt="">角度</li>
+            </ul>
+            <hr>
+            <div class="bottom-menu"><img src="images/设置.png" alt="">设置</div>
+        </div>
+
+
+        <div class="mid">
+            <div class="mid-left"><img src="images/更多.png" class="mid-inleft" alt=""></div>
+            <span class="std">标准</span>
+            <div class="keep"><img src="images/保持顶部1.png" id="keep" alt=""></div>
+            <div class="record"><img src="images/历史记录.png" id="record" alt=""></div>
+        </div>
+
+        <!-- 存储区 -->
+        <p class="memory"></p>
+        <!-- 显示区 -->
+        <p class="results">0</p>
+        <ul class="ul">
+            <li>MC</li>
+            <li>MR</li>
+            <li>M+</li>
+            <li>M-</li>
+            <li>MS</li>
+            <li>M∨</li>
+        </ul>
+        <div class="bottom">
+<div class="inbottom colordef" id="mod"><img src="images/百分号.png" class="pit" alt=""></div>
+<div class="inbottom colordef" id="ce">CE</div>
+<div class="inbottom colordef" id="c">C</div>
+<div class="inbottom colordef" id="clear"><img src="images/清除.png" class="pit" alt=""></div>
+
+<div class="inbottom colordef" id="1/">1/x</div>
+<div class="inbottom colordef" id="pow">x²</div>
+<div class="inbottom colordef" id="sqrt"><img src="images/sqrt.png" class="pit3" alt=""></div>
+<div class="inbottom colordef" id="chu">÷</div>
+<!-- <img src="images/004-除号.png" class="pit1" alt=""> -->
+<div class="inbottom" id="7">7</div>
+<div class="inbottom" id="8">8</div>
+<div class="inbottom" id="9">9</div>
+<div class="inbottom colordef" id="cheng">✕</div>
+<!-- <img src="images/关闭.png" class="pit1" alt=""> -->
+<div class="inbottom" id="4">4</div>
+<div class="inbottom" id="5">5</div>
+<div class="inbottom" id="6">6</div>
+<div class="inbottom colordef" id="jian">-</div>
+
+<div class="inbottom" id="1">1</div>
+<div class="inbottom" id="2">2</div>
+<div class="inbottom" id="3">3</div>
+<div class="inbottom colordef" id="jia">+</div>
+
+<div class="inbottom" id="jiajian"><img src="images/加减.png" class="pit1" alt=""></div>
+<div class="inbottom" id="0">0</div>
+<div class="inbottom" id="dian">.</div>
+<div class="inbottom deng" id="deng">=</div>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
