@@ -1,0 +1,249 @@
+/* 0-1 */
+@keyframes gradient1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* 1-0 */
+@keyframes gradient2 {
+    0% {
+        opacity: 1;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* 1-0.3 */
+@keyframes gradient3 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes zoomPc {
+    0% {
+        background-size: 40%;
+    }
+
+    50% {
+        background-size: 37%;
+    }
+
+    100% {
+        background-size: 40%;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        background-size: 60%;
+    }
+
+    50% {
+        background-size: 53%;
+    }
+
+    100% {
+        background-size: 60%;
+    }
+}
+
+body {
+    /* background: url(images/班级口号.webp) no-repeat center center; */
+    /* background: url(https://pic8.58cdn.com.cn/nowater/webim/big/n_v252edd822f478411fabd13b3c5a44111b.png) no-repeat center center; */
+    /* background: url(https://tva1.sinaimg.cn/large/0073e8Dlgy1h8gbtns1ohj30r21ns4qq.jpg) no-repeat center center; */
+    /* background: url(https://uestc432-private-1311605868.cos.ap-chengdu.myqcloud.com/n_v252edd822f478411fabd13b3c5a44111b.png) no-repeat center center; */
+    background: url(https://img12.360buyimg.com/ddimg/jfs/t1/211833/21/23677/125792/637f3241E93d9ef84/eaa1e39db58bd80f.webp) no-repeat center center, url(https://tva1.sinaimg.cn/large/0073e8Dlly1h8h9becll4j31hc39s1l2.jpg) no-repeat center center;
+    /* background: url(images/班级口号.webp) no-repeat center center, url(images/班级口号.png) no-repeat center center; */
+    /* height: 100%; */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.bgcPc {
+    background: url(https://uestc432.oss-cn-chengdu.aliyuncs.com/img/0915.png) no-repeat center center;
+    /* background: url(images/班徽.webp) no-repeat center center, url(images/班徽.png) no-repeat center center; */
+    background-size: 40%;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    /* animation: gradient1 4s ; */
+
+}
+
+.bgc {
+    background: url(https://uestc432.oss-cn-chengdu.aliyuncs.com/img/0915.png) no-repeat center center;
+    /* background: url(https://pic5.58cdn.com.cn/nowater/webim/big/n_v255fe587c09124be58ab489334fb41fc2.png) no-repeat center center; */
+    background-size: 60%;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    /* animation */
+    /* display: flex;
+    align-items: column;
+    justify-content: center; */
+    /* animation: gradient1 4s ; */
+
+}
+
+.clickFuncPc {
+    font-size: 5rem;
+    color: rgb(7, 198, 198);
+    /* font-family: ; */
+    /* font-size: 60px; */
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 42%;
+    left: 43%; */
+}
+
+.clickFunc {
+    /* font-size: 60px; */
+    font-size: 5rem;
+    color: rgb(7, 198, 198);
+    position: absolute;
+    opacity: 0;
+    /* margin-top: 50%;
+    margin-left: 50%; */
+    /* vertical-align: middle; */
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 45%;
+    left: 39%; */
+    /* margin: auto; */
+}
+
+
+h1 {
+    text-align: center;
+    color: silver;
+}
+
+
+.coverPc {
+    text-align: center;
+    animation: gradient2 6s forwards ease-in-out;
+    /* margin-top: 38px; */
+
+}
+
+.coverPc img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* height: 50%; */
+    width: 50%;
+}
+
+.cover {
+    text-align: center;
+    animation: gradient2 6s forwards ease-in-out;
+    /* display: inline-block; */
+    /* margin-top: 55%; */
+
+
+}
+
+.cover img {
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* height: 35%; */
+    width: 70%;
+}
+
+
+.boxPc {
+    display: none;
+    width: 133px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    /* border: 1px solid #fff; 测试用到*/
+    transform-style: preserve-3d;
+    /*2.transform–style属性指定嵌套元素是在三维空间中呈现。(使用此属性必须先使用transform 属性)*/
+    /*perspective:800px;*/
+    /*3.设置透视距离*/
+    transform: perspective(800px) rotateX(-15deg) rotateY(0deg);
+}
+
+.boxPc img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #fff;
+    /*4.设置图片阴影*/
+    -webkit-box-reflect: below 10px -webkit-linear-gradient(transparent, transparent 50%, rgba(0, 0, 0, .6));
+    /*方法2-webkit-box-reflect:below 8px -webkit-linear-gradient(top,rgba(0,0,0,0)40%,rgba(0,0,0,.5)100%);*/
+    /*5.设置图片倒影:直接记住吧(3个值。1. direction 定义方向，取值包括 above 、 below 、 left 、 right。);2. offset定义反射偏移的距离;3.mask-box-image定义遮罩图像，该图像将覆盖投影区域。如果省略该参数值，则默认为无遮罩图像。*/
+}
+
+.box {
+    display: none;
+    width: 173px;
+    height: 250px;
+    margin: 750px auto;
+    position: relative;
+    /* border: 1px solid #fff; 测试用到*/
+    transform-style: preserve-3d;
+    /*2.transform–style属性指定嵌套元素是在三维空间中呈现。(使用此属性必须先使用transform 属性)*/
+    /*perspective:800px;*/
+    transform: perspective(800px) rotateX(-15deg) rotateY(0deg);
+}
+
+.box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px #fff;
+    /*4.设置图片阴影*/
+    -webkit-box-reflect: below 10px -webkit-linear-gradient(transparent, transparent 50%, rgba(0, 0, 0, .6));
+    /*方法2-webkit-box-reflect:below 8px -webkit-linear-gradient(top,rgba(0,0,0,0)40%,rgba(0,0,0,.5)100%);*/
+    /*5.设置图片倒影:直接记住吧(3个值。1. direction 定义方向，取值包括 above 、 below 、 left 、 right。);2. offset定义反射偏移的距离;3.mask-box-image定义遮罩图像，该图像将覆盖投影区域。如果省略该参数值，则默认为无遮罩图像。*/
+}
