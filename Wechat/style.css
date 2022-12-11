@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style: none;
+}
+body{
+    zoom: 0.7;
+}
+/* 总体框架 */
+.index {
+    width: 1363px;
+    height: 959px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 50px rgba(0,0,0,0.15);
+
+}
+
+
+.left {
+    float: left;
+    width: 81px;
+    height: 959px;
+    background-color: #2e2e2e;
+}
+
+.mid {
+    float: left;
+    width: 373px;
+    height: 959px;
+    background-color: #f7f7f7;
+
+}
+
+.right {
+    float: left;
+    width: 907px;
+    height: 959px;
+    background-color: #f5f5f5;
+    border-left: 2px solid #d6d6d6;
+}
+
+/* left */
+.left ul li {
+    width: 30px;
+    margin: 0 auto;
+}
+.icon_right:hover{
+    filter: brightness(1.02);
+}
+.icon_left:hover{
+    filter: brightness(1.1);
+}
+.left ul .first {
+    width: 54px;
+    height: 54px;
+    margin-top: 52px;
+    margin-bottom: 42px;
+}
+.left .two {
+    width: 30px;
+    height: 26px;
+    margin-bottom: 35px;
+}
+.left ul .three {
+    height: 26px;
+    margin-bottom: 35px;
+}
+.left .four {
+    height: 28px;
+    margin-bottom: 37px;
+}
+.left .five {
+    height: 22px;
+    margin-bottom: 37px;
+}
+.left .six {
+    height: 28px;
+    margin-bottom: 38px;
+}
+.left .seven {
+    height: 26px;
+    margin-bottom: 36px;
+}
+.left .eight {
+    height: 28px;
+    margin-bottom: 30px;
+}
+.left .nine {
+    height: 26px;
+    margin-bottom: 177px;
+}
+.left .ten {
+    width: 54px;
+    height: 26px;
+    margin-bottom: 38px;
+}
+.left .eleven {
+    width: 54px;
+    height: 29px;
+    margin-bottom: 34px;
+}
+.left .twelve {
+    width: 54px;
+    height: 22px;
+}
+
+/* mid */
+.mid .search {
+    height: 57px;
+    background-color: #f7f7f7;
+    padding-top: 38px;
+    padding-left: 15px;
+}
+.mid .search .searcher{
+    height: 38px;
+    width: 338px;
+
+}
+.sousuo {
+    outline:none;
+    border: 0;
+}
+.mid .search .searcher .sou{
+    float: left;
+    width: 36px;
+    height: 38px;
+}
+.mid .search input {
+    float: left;
+    width: 250px;
+    height: 38px;
+    background-color: #e2e2e2;
+    border: none;
+    color: #818181;
+}
+.mid .search .searcher .plus {
+    float: right;
+    width: 38px;
+    height: 38px;
+}
+#contact {
+    overflow: auto;
+}
+.contact {
+    background-color: #ebe8e7;
+    width: 373px;
+    height: 96px;
+
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .imgtx {
+    padding: 18px 15px 0px 18px;
+    float: left;
+}
+/* .contact .imgtx img{
+    margin-top: -1px;
+} */
+.contact h3 {
+display: inline-block;
+    font-weight: 350;
+    color: black;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.contact p{
+color: #818181;
+font-weight: 300;
+}
+.contact .box {
+    float: left;
+width: 280px;
+height: 96px;
+}
+/* right */
+.right .name {
+    height: 94px;
+    background-color: #f5f5f5;
+    position: relative;
+    border-bottom: 2px solid #e7e7e7;
+}
+.right .name h1 {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 94px;
+    padding:  0 36px;
+
+
+}
+.right .name h1 a {
+    text-decoration: none;
+    color: #000;
+        font-weight: 400;
+
+}
+/* .right .name div {
+    float: right;
+} */
+.right .name .include {
+    width: 200px;
+    height: 38px;
+    position: relative;
+    float: right;
+}
+.right .name .front {
+    position: absolute;
+
+}
+/* .right .name .fu {
+    float: right;
+} */
+.right .name .cha {
+    right: 0;
+    top: 0;
+}
+.right .name .fang {
+    right: 50px;
+    top: 0;
+}
+.right .name .jian {
+    right: 100px;
+    top: 0;
+}
+.right .name .ding {
+    right: 150px;
+    top: 0;
+}
+/* .right .name .fu:hover{
+z-index: -1;
+} */
+/* .right .name .include div a:hover {
+    background-color: #e2e2e2;
+}
+.right .name .include .red a:hover{
+background-color: #fb7373;
+
+} */
+.right .name .son {
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+}
+
+.right .frame {
+    height: 648px;
+    width: 907px;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #e7e7e7;
+    overflow-y:auto;
+}
+
+.right .frame .time {
+    width: 102px;
+    height: 29px;
+    margin: auto;
+}
+.right .frame .messageframe {
+    margin-top: 22px;
+    margin-left: 36px;
+
+}
+
+.right .frame .messageframe1 {
+    float: right;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+
+.right .inputbox {
+    height: 217px;
+
+}
+.right .inputbox .picture {
+    height: 48px;
+}
+#r1 {
+    padding-left: 39px;
+    padding-right: 24px;
+}
+#r3 {
+    padding-left: 24px;
+    padding-right: 21px;
+}
+#r5 {
+    float: right;
+    margin-right: 40px;
+    padding-left: 15px;
+}
+#r6 {
+    float: right;
+}
+.inputbox #shuru {
+    display: inline-block;
+    border: 0;
+    background-color: #f5f5f5;
+    width: 832px;
+    height: 86px;
+    margin-left: 42px;
+    outline: none;
+    resize:none;
+    font-size:20px;
+    margin-top: 17px;
+}
+.inputbox  {
+    position: relative;
+}
+/* .inputbox .fasong {
+    display: inline-block;
+    width: 102px;
+    height: 39px;
+    position: absolute;
+    bottom: 8px;
+    right: 45px;
+    z-index: 1;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
+    color: #818181
+} */
+.buttons {
+    width: 150px;
+    height: 48px;
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+    color: #06c191;
+    background-color: #e9e9e9;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.buttons:hover {
+    background-color: #d2d2d2;
+}
+.box>* {
+      vertical-align: middle;
+    }
+
+    /* .locate1 { margin-top: 26px;
+      margin-right: 45px;
+      height: 54px;}
+    .locate2 { margin-top: 26px;
+      margin-right: 45px;
+      height: 82px;}
+    .locate3 { margin-top: 26px;
+      margin-right: 46px;
+      height: 117px;
+    } */
+    .bubble {
+      margin: 16px 8px 16px 5px;
+      width: 18px;
+      height: 18px;
+    }
+    /* .kuang1 {
+      background-color: #89d961;
+      height: 54px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 54px;
+      margin-right: -12px;
+      padding: 0px 17px 0px;
+      border-radius: 6px;
+      float: right;
+    }
+    .kuang2 {
+      background-color: #89d961;
+      height: 82px;
+      width: 522px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 38px;
+      margin-right: -12px;
+      padding: 0px 17px 0px;
+      border-radius: 6px;
+      float: right;
+    }
+    .kuang3 {
+      background-color: #89d961;
+      height: 117px;
+      width: 522px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 38px;
+      margin-right: -12px;
+      padding: 0px 17px 0px;
+      border-radius: 6px;
+      float: right;
+    } */
+    .rightpart {
+      display: inline-block;
+      height: 54px;
+      float: right;}
+    .locate { margin-top: 26px;
+      margin-right: 46px;
+      /* height: 117px; */
+    }
+    .kuang {
+        word-break: break-all;
+        max-width: 500px;
+      background-color: #89d961;
+      /* height: 54px; */
+      /* width: 522px; */
+      display: inline-block;
+      font-size: 20px;
+      line-height: 54px;
+      margin-right: -12px;
+      padding: 0px 17px 0px;
+      border-radius: 6px;
+      float: right;
+    }
+    .frame1{
+        display: flex;
+        flex-direction: column;
+      align-items: end;
+    }
+/* .inputbox .fasong:hover{
+    z-index: -1;
+} */
+/* .inputbox .r-last {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
