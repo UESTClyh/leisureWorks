@@ -1,0 +1,208 @@
+body{
+    background-image: url('images/背景.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.index{
+        overflow: hidden;
+        width: 800px;
+        height: 450px;
+        margin-top: 200px;
+        margin-left: 450px;
+        position: relative;
+        box-shadow: 0 0.9rem 1.7rem rgb(0, 0, 0, 0.25);
+        border-radius: 15px;
+        background-color: rgb(228, 236, 243);
+}
+.form{
+    /* overflow: hidden; */
+    width: 400px;
+    height: 450px;
+    /* text-align: center; */
+    /* margin: auto; */
+
+    /* box-shadow: 9px 14px 26px -13px #000; */
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    background-color:rgb(228, 236, 243);
+
+}
+.in{
+    float: left;
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    border-radius: 15px 0px 0px 15px;
+    /* border-right: 1px solid #000; */
+    transition: 0.6s;
+    /* margin-right: 400px; */
+    /* transform: translateX(-400px); */
+    /* display: none; */
+}
+.up{
+    float: left;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    border-radius: 0px 15px 15px 0px;
+    transition: 0.6s;
+    /* display: none; */
+    /* opacity: 0; */
+    transform: translateX(-400px);
+}
+.overlay{
+    height: 450px;
+    width: 400px;
+    /* background: url('images/背景.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    position: absolute;
+    /* display: none; */
+    overflow: hidden;
+    z-index: 9;
+    transform: translateX(400px);
+    transition: 0.6s;
+}
+.overlay img{
+    width: 1690px;
+    /* width: 1376px; */
+    height: 948px;
+    margin-left: -858px;
+    margin-top: -200px;
+    transition: 0.6s;
+}
+.moveRight{
+    transform: translateX(400px);
+    z-index: 1;
+}
+.moveLeft{
+    transform: translateX(-400px);
+}
+.movePre{
+    transform: translateX(0);
+}
+input{
+    width: 260px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+}
+h2{
+    font-weight: 500;
+    margin-top: 70px;
+}
+.email{
+    margin-top: 20px;
+}
+.password{
+    margin-top: 20px;
+}
+.user{
+    margin-top: 20px;
+}
+p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.btn-in{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+    background: linear-gradient(to right, #72d5ff,#fc9bc4);
+    cursor: pointer;
+    transition: 0.5s;
+    /* background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#72d5ff), to(#fc9bc4)); */
+}
+.btn-up{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+    background: linear-gradient(to right, #72d5ff, #fc9bc4);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-in:hover,.btn-up:hover{
+    box-shadow: 2px 2px 5px 1px #0000007a;
+}
+.over{
+    position: absolute;
+    /* z-index: 11; */
+}
+.Rbtn::after{
+    content: "没有账号，点击注册";
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13.5px;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #fc9bc4, #72d5ff);
+    opacity: 0;
+    transition: all 0.8s;
+    cursor: pointer;
+
+}
+.Lbtn::after{
+    content: "已有账号，点击登录";
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13.5px;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #fc9bc4, #72d5ff);
+    opacity: 0;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.btn-change{
+    width: 160px;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+    background: linear-gradient(to right, #72d5ff, #fc9bc4);
+    transition: all 0.6s;
+}
+.over:hover::after{
+    /* background: linear-gradient(to right, #fc9bc4, #72d5ff); */
+    opacity: 1;
+    /* background-color: #000; */
+}
+.Rbtn{
+    top: 200px;
+    right: 120px;
+    z-index: 11;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.Lbtn{
+    top: 200px;
+    left: 120px;
+    z-index: 3;
+    transition: 0.6s;
+    opacity: 0;
+}

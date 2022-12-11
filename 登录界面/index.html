@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="index">
+        <form action="http://119.91.225.190/login_demo/test/user/login" name="login" method="post" class="form in">
+            <div class="sign">
+                <h2>欢迎登录</h2>
+                <input type="email" name="email" class="email" placeholder="Email">
+                <input type="password" name="password" class="password" placeholder="password">
+                <p><a href="#">忘记密码？</a></p>
+                <button class="btn-in">登录</button>
+            </div>
+        </form>
+        <form action="http://119.91.225.190/login_demo/test/user/register" name="register" method="post" class="form up">
+            <div class="sign">
+                <h2>注册账号</h2>
+                <input type="text" name="username" class="user" placeholder="UserName">
+                <input type="email" name="email" class="email" placeholder="Email">
+                <input type="password" name="password" class="password" placeholder="password">
+                <button class="btn-up">点击注册</button>
+            </div>
+
+        </form>
+        <div class="over Lbtn">
+            <button class="btn-change">已有账号，点击登录</button>
+        </div>
+        <div class="over Rbtn">
+            <button class="btn-change">没有账号，点击注册</button>
+        </div>
+        <div class="overlay">
+            <img src="images/背景.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+<script src="js.js"></script>
+
+</html>
