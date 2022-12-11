@@ -1,0 +1,95 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    width: 109px;
+    height: 240px;
+    color: #fff;
+    color: rgb(233, 90, 140);
+    margin-right: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#88a9ca), to(#bcd3e3));
+}
+
+body {
+    background: url(背景.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.tab {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: #f3d88b;
+}
+
+input {
+    width: 700px;
+    height: 50px;
+    line-height: 50;
+    outline: none;
+    font-size: 25px;
+    /* color:yellowgreen; */
+    margin-right: 10px;
+    margin-left: 100px;
+    padding-left: 8px;
+    /* background: transparent; */
+    /* border-radius: 10px; */
+}
+
+button {
+    height: 56px;
+    width: 70px;
+}
+
+.frame {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.result {
+    width: 700px;
+    /* border: 1px black solid; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.city {
+    font-size: 30px;
+    color: slateblue
+}
+
+.date {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.type {
+    text-align: center;
+}
+
+.wind {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.today {
+    background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#50b2fb), to(#a6d4f6))
+}
+
+.advise {
+    color: cyan;
+}
