@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#root {
+    display: flex;
+    width: 1200px;
+    height: 800px;
+    /* background-color: pink; */
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+.left {
+    width: 300px;
+    height: 800px;
+    background-color: red;
+    position: relative;
+}
+
+.left ul{
+    margin-top: 140px;
+}
+.left ul li {
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 20px;
+    /* font-size: 18px; */
+    line-height: 40px;
+}
+
+.left .newList {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 757px;
+    left: 20px;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.mid {
+    height: 800px;
+    width: 900px;
+    background-color: pink;
+    position: relative;
+}
+
+.right {
+    display: none;
+    height: 700px;
+    width: 300px;
+    position: absolute;
+    left: 1153px;
+    background-color: gray;
+}
+.right textarea{
+    outline: none;
+    font-size: 16px;
+}
+
+.topClass {
+    height: 70px;
+    display: flex;
+}
+
+.works {
+    width: 800px;
+    height: 695px;
+    margin-left: 60px;
+    overflow: auto;
+}
+
+.works li {
+    height: 70px;
+    width: 800px;
+    font-size: 16px;
+    padding-left: 7px;
+    line-height: 70px;
+    background-color: white;
+}
+
+.coverWorks,.coverClass{
+    position: absolute;
+    background-color: red;
+    display: none;
+}
+.coverWorks li,.coverClass li{
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    background-color: yellow;
+}
+
+.newWork {
+    position: absolute;
+    top: 730px;
+    left: 60px;
+}
+
+.newWork input {
+    height: 35px;
+    width: 800px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 7px;
+}
