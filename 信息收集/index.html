@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息采集</title>
+    <style>
+        body {
+            background: url(img2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            color: rgb(6, 240, 252);
+        }
+
+        .box {
+            width: 700px;
+            height: 500px;
+            margin: 230px auto;
+        }
+
+        .head {
+            margin: auto;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .setting {
+            margin-top: 70px;
+            margin-left: 200px;
+            font-size: 25px;
+
+        }
+
+        input {
+            outline: none;
+            height: 25px;
+            width: 200px;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        .button {
+            width: 70px;
+            height: 45px;
+            font-size: 17px;
+            margin-top: 50px;
+        }
+
+        p {
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+<form action="https://6fd142be.vip.cpolar.cn/huaxin/index.html" method="get">
+    <div class="box">
+        <div class="head">话 心 信 息 收 集</div>
+
+            <div class="name setting">姓名 ：
+                <input type="text" name="name">
+            </div>
+
+            <div class="score setting">
+                积分 ：
+                <input type="text" name="score">
+            </div>
+
+            <div class="btn">
+                <input type="submit" class="button">
+            </div>
+
+
+        <p>(积分填还差多少到200，为方便后续工作，家人们如实填写哈）</p>
+
+    </div>
+</form>
+
+</body>
+<script>
+    document.addEventListener('selectstart', function (e) {
+        e.preventDefault();
+    })
+</script>
+
+</html>
